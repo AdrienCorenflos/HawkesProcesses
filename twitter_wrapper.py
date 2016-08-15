@@ -1,7 +1,7 @@
 from twython import Twython
 import datetime as dt
 import numpy as np
-from .univariate import HawkesProcess
+from univariate import HawkesProcess
 
 
 def get_tweets_arrival_process(app_key, app_key_secret, access_token, access_token_secret, query):
